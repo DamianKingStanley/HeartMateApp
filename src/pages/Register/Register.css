@@ -1,0 +1,72 @@
+.SignUpBody {
+  background-image: url(../../assest/register-banner.jpg);
+  background-size: cover;
+  padding: 50px 100px;
+  background-repeat: no-repeat;
+}
+
+#registerForm {
+  padding: 50px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(132, 34, 34, 0.8);
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+#regForm {
+  width: 400px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 20px;
+  border: 1px solid red;
+}
+
+#submitBtn {
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+  background-color: red;
+  color: white;
+  border: 1px solid white;
+  font-size: 20px;
+}
+
+#registerForm p {
+  color: white;
+  font-size: 20px;
+}
+
+#submitBtn:hover {
+  background-color: rgb(163, 26, 26);
+}
+
+@media screen and (max-width: 980px) {
+  .SignUpBody {
+    background-image: url(../../assest/register-banner.jpg);
+    background-size: cover;
+    background-position: top;
+    padding: 50px 10px;
+    background-repeat: no-repeat;
+  }
+  #registerForm {
+    padding: 20px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(132, 34, 34, 0.8);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  #regForm {
+    width: 300px;
+  }
+  #submitBtn {
+    width: 300px;
+    font-size: 20px;
+  }
+}

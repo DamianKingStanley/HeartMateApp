@@ -1,0 +1,40 @@
+.DatingTipsContainer {
+    padding: 30px 100px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.MatingTips h1,
+.relationshiptipsection h1,
+.SingleLife h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.MatingTips h2,
+.relationshiptipsection h2,
+.SingleLife h2 {
+    font-size: 25px;
+}
+
+.MatingTips span,
+.relationshiptipsection span {
+    font-size: 20px;
+    color: #8c0606;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 980px) {
+    .DatingTipsContainer {
+        padding: 30px 20px;
+    }
+    .MatingTips h1,
+    .relationshiptipsection h1,
+    .SingleLife h1 {
+        font-size: 30px;
+    }
+    .MatingTips h2,
+    .relationshiptipsection h2,
+    .SingleLife h2 {
+        font-size: 15px;
+    }
+}

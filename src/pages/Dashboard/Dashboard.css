@@ -1,0 +1,60 @@
+.UserHeader {
+    background-color: #940406;
+    color: white;
+    padding: 30px;
+    line-height: 12px;
+}
+
+.updateAndPostBtn {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.updateOnly {
+    margin-top: 5px;
+}
+
+.user-info p {
+    font-size: 20px;
+}
+
+#profileUpdateBtn {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 2px;
+    width: 120px;
+    border-radius: 15px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.profilePicture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#profileUpdateBtn:hover {
+    background-color: #940406;
+    color: white;
+}
+
+.profileIcon {
+    width: 100px;
+    height: 100px;
+    color: #fff;
+}
+
+@media screen and (max-width: 980px) {
+    #postContentBtn {
+        width: 140px;
+        height: 40px;
+        margin-top: 5px;
+    }
+    .updateAndPostBtn {
+        gap: 10px;
+    }
+}

@@ -1,0 +1,93 @@
+.userpostsContainer {
+    margin-top: 30px;
+}
+
+.UsersContents {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px 100px;
+    background-color: #f7f7f7;
+}
+
+.authorDetails {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px 50px;
+}
+
+.authorDetails h3 {
+    font-size: 25px;
+}
+
+.dmBtn {
+    border: none;
+    background-color: #940406;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+
+.dmBtn:hover {
+    background-color: #520102;
+}
+
+.writerPicture {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.EachContent {
+    border: 1px solid #202068;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    height: fit-content;
+}
+
+.EachContentTop {
+    line-height: 5px;
+    text-align: center;
+}
+
+.EachContent p {
+    text-align: center;
+}
+
+.mate-photouser {
+    width: 300px;
+    height: 250px;
+}
+
+@media screen and (max-width: 980px) {
+    .UsersContents {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px 10px;
+    }
+    .authorDetails h3 {
+        font-size: 20px;
+    }
+    .authorDetails {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 10px;
+    }
+    .dmBtn {
+        border: none;
+        background-color: #940406;
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
+        margin-left: 30px;
+    }
+}

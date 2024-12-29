@@ -1,0 +1,64 @@
+.heroSectionContainer {
+    padding: 100px 100px 150px 100px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.heroSectionContainer video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+.heroSectionContainer h1 {
+    color: red;
+    font-size: 150px;
+    text-align: center;
+}
+
+.heroSectionContainer p {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#createAcctBtn {
+    margin-top: 50px;
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    pad: 10px;
+    width: 150px;
+    color: #520102;
+}
+
+#createAcctBtn:hover {
+    background-color: #520102;
+    color: white;
+}
+
+@media screen and (max-width: 980px) {
+    .heroSectionContainer {
+        padding: 100px 20px 100px 20px;
+        text-align: center;
+    }
+    .heroSectionContainer h1 {
+        font-size: 50px;
+    }
+    .heroSectionContainer p {
+        font-weight: bold;
+        margin-top: 50px;
+    }
+}

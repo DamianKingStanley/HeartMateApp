@@ -1,0 +1,47 @@
+.state-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+#states {
+  border: 1px solid #8c0606;
+}
+
+.state-form h2 {
+  font-size: 24px;
+  color: #8c0606;
+  margin-bottom: 20px;
+}
+
+.state-form select {
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.state-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #8c0606;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.state-form button:hover {
+  background-color: #570505;
+}
+
+.state-form p {
+  font-size: 18px;
+  text-align: center;
+  color: #8c0606;
+}

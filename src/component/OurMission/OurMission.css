@@ -1,0 +1,25 @@
+.Mission {
+  background-color: #060606;
+}
+
+.OurMissionSection {
+  padding: 100px 500px;
+  text-align: center;
+  background-color: #633c30;
+  border-radius: 100px 100px 0px 0px;
+  color: white;
+}
+
+.OurMissionSection h1 {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 980px) {
+  .OurMissionSection {
+    padding: 70px 20px;
+    border-radius: 50px 50px 0px 0px;
+  }
+  .OurMissionSection h1 {
+    font-size: 30px;
+  }
+}

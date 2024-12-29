@@ -1,0 +1,71 @@
+.contact {
+    background-color: #4d45a1;
+    color: white;
+    padding: 30px 50px;
+    margin-bottom: 40px;
+}
+
+.NewsLetter {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.sendEmail input {
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.sendEmail button {
+    width: 100px;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.sendEmail button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.sub h1 {
+    font-size: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.info h2 {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 980px) {
+    .contact {
+        background-color: #4d45a1;
+        color: white;
+        padding: 20px 10px;
+        margin-bottom: 40px;
+    }
+    .NewsLetter {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 50px;
+        text-align: center;
+        cursor: pointer;
+    }
+}

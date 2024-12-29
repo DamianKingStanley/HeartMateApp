@@ -1,0 +1,20 @@
+/* .HomeSection {
+    background-color: black;
+    color: white;
+    background-image: url(../../assest/bedmateBanner4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+@media screen and (max-width: 980px) {
+    .HomeSection {
+        background-color: black;
+        color: white;
+        background-image: url(../../assest/bedmateBanner4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 700px;
+    }
+} */

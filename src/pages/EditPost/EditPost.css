@@ -1,0 +1,72 @@
+.EditPostBody {
+  background-color: #bcc2c7;
+  color: #940406;
+}
+
+.EditPost {
+  padding: 100px 50px;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.EditPost h2 {
+  font-size: 20px;
+}
+
+#Creator {
+  width: 500px;
+  height: 40px;
+  border-color: black;
+  background-color: inherit;
+  display: none;
+}
+
+#content {
+  width: 500px;
+  height: 100px;
+  border-color: #940406;
+  background-color: inherit;
+  padding: 5px;
+  color: #940406;
+}
+
+#editpostbtn {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  background-color: #940406;
+}
+
+#editpostbtn:hover {
+  background-image: linear-gradient(-45deg, #940406, #000000);
+  box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+}
+
+#editpostbtn .text {
+  background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+}
+
+@media screen and (max-width: 980px) {
+  .EditPost {
+    padding: 20px 20px 50px 20px;
+    margin: 20px 20px 30px 20px;
+  }
+  .EditPost h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+  #categories {
+    width: 250px;
+    height: 40px;
+  }
+  #Creator {
+    width: 250px;
+    height: 40px;
+  }
+  #content {
+    width: 250px;
+    height: 100px;
+  }
+}

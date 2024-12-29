@@ -1,0 +1,42 @@
+.Steps {
+    background-color: #633c30;
+}
+
+.StepsSection {
+    padding: 70px 200px;
+    background-color: white;
+    color: black;
+    border-radius: 100px 100px 0px 0px;
+}
+
+.StepsSection h1 {
+    text-align: center;
+    color: #633c30;
+}
+
+.StepsSection h3 {
+    color: #633c30;
+    font-weight: bold;
+}
+
+.step-icon {
+    width: 70px;
+    height: 70px;
+    color: #633c30;
+    margin-left: 400px;
+}
+
+@media screen and (max-width: 980px) {
+    .StepsSection {
+        padding: 50px 20px;
+        background-color: white;
+        color: black;
+        border-radius: 50px 50px 0px 0px;
+    }
+    .step-icon {
+        width: 50px;
+        height: 50px;
+        color: #633c30;
+        margin-left: 130px;
+    }
+}

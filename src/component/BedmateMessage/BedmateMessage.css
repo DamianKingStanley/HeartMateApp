@@ -1,0 +1,38 @@
+.BedmateMessageSection {
+  padding: 50px;
+  text-align: center;
+  color: white;
+  background-color: #060606;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.message1 h1 {
+  font-size: 60px;
+  color: #633c30;
+}
+
+.message1 p {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 980px) {
+  .BedmateMessageSection {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .message1 h1 {
+    font-size: 40px;
+    padding: 20px;
+  }
+  .message1 p {
+    font-size: 16px;
+  }
+  .BedmateMessageSection img {
+    width: 350px;
+    height: 200px;
+  }
+}

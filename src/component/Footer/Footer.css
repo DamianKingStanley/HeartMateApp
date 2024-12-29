@@ -1,0 +1,50 @@
+.FooterSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 50px 100px 10px 100px;
+  background-color: black;
+  color: white;
+}
+
+.FooterSection h1 {
+  font-size: 18px;
+}
+
+.FooterSection ul {
+  list-style-type: none;
+  line-height: 50px;
+}
+
+.FooterSection a {
+  text-decoration: none;
+  color: white;
+}
+
+.FooterSection a:hover {
+  color: #633c30;
+}
+
+.footerWarn {
+  background-color: black;
+  color: white;
+  padding: 10px 100px;
+}
+
+@media screen and (max-width: 980px) {
+  .FooterSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 20px;
+    background-color: black;
+  }
+  .footerWarn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+  }
+  .footerWarn P {
+    font-size: 12px;
+  }
+}

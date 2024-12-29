@@ -1,0 +1,72 @@
+.navigation-bar {
+    display: none;
+}
+
+@media screen and (max-width: 980px) {
+    .navigation-bar {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #8c0606;
+    }
+    .toggle-button {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        color: white;
+    }
+    .nav-items {
+        position: absolute;
+        top: 0;
+        left: -200px;
+        width: 200px;
+        height: 100vh;
+        transition: left 0.3s ease;
+    }
+    .nav-items.open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 8%;
+        width: 100%;
+        padding: 10px;
+        height: fit-content;
+        z-index: 1000;
+        left: 0;
+        backdrop-filter: blur(5px);
+        background-color: rgba(132, 34, 34, 0.8);
+    }
+    .nav-items ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    .nav-items li {
+        padding: 10px;
+        color: white;
+    }
+    .nav-items li a {
+        text-decoration: none;
+        color: white;
+    }
+    .username {
+        color: white;
+    }
+    #bedmatelogo {
+        width: 100%px;
+        height: 40px;
+    }
+    #LoginBtn {
+        border: none;
+        border-radius: 10px;
+        background-color: black;
+        width: 100px;
+        padding: 5px;
+    }
+    #LoginBtn a {
+        color: white;
+        text-decoration: none;
+    }
+}
